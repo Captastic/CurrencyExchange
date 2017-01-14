@@ -28,7 +28,7 @@ public class CurrencyExchange {
         exchangeRate.put("Chinese Yuan Renminbi", 6.92);
     }
 
-    public void calculateExchangeRate(String before, String after) {
+    public void calculateExchangeRate(String after, String before) {
         rate = exchangeRate.get(before)/exchangeRate.get(after);
     }
 
